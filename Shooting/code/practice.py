@@ -18,13 +18,14 @@ character_height = character_size[1]
 character_pos_x = screen_width / 2 - character_width/2
 character_pos_y = screen_height - character_height
 
+
 enemy_image = pygame.image.load(
     "D:/programes/py_workspace/Shooting/enermy.png")
 enemy_size = enemy_image.get_rect().size
 enemy_width = enemy_size[0]
 enemy_height = enemy_size[1]
 enemy_pos_x = screen_width / 2 - enemy_width/2
-enemy_pos_y = screen_height - enemy_height
+enemy_pos_y = 100
 
 
 pos_x = 0
